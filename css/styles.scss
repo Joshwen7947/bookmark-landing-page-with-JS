@@ -392,6 +392,7 @@ header {
 		text-align: center;
 		width: 35%;
 		margin: auto;
+
 		h2 {
 			color: $darkBlue;
 			padding-bottom: 10px;
@@ -401,19 +402,109 @@ header {
 			color: $grayBlue;
 		}
 	}
-	.faqBar {
-		p {
-			display: grid;
-			width: 40%;
+	#QA {
+		padding-bottom: 50px;
+		li {
 			margin: auto;
+			text-align: center;
+			list-style: none;
+			padding: 15px;
+			width: 50%;
+			font-size: 1.5rem;
 		}
-		.btn {
-			align-content: center;
-			display: flex;
-			margin: 5px;
+		.hrFAQ {
+			border-top: 6px dotted $grayBlue;
+			background-color: #fff;
+			width: 50%;
+			margin: auto;
 			padding: 10px;
+		}
+	}
+	#moreButton {
+		padding: 15px 25px;
+		border: none;
+		border-radius: 10px;
+		background-color: $softBlue;
+		color: white;
+		position: absolute;
+		left: 46%;
+	}
+}
+.bottomContainer {
+	height: 350px;
+	width: 100%;
+	background-color: $softBlue;
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+	margin-top: 50px;
+	p {
+		font-size: 1.25rem;
+	}
+	h2 {
+		font-size: 2.5rem;
+		width: 50%;
+		margin: auto;
+		padding: 25px;
+	}
+	.inputButton {
+		input {
+			width: 250px;
+			height: 50px;
+			border-radius: 10px;
+			border: none;
+		}
+		button {
+			padding: 15px;
+			border: none;
+			border-radius: 10px;
+			background-color: $softRed;
+			color: white;
+		}
+		button:hover {
+			cursor: pointer;
 			background-color: white;
-			color: $darkBlue;
+			color: $softRed;
+			border: 3px solid $softRed;
+		}
+	}
+}
+
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: $darkBlue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 5%;
+	text-align: center;
+
+	#logoBottom {
+		cursor: pointer;
+		transform: scale(1.5);
+	}
+	li,
+	a {
+		font-weight: 500;
+		font-size: 16px;
+		color: white;
+		text-decoration: none;
+		text-align: center;
+	}
+	.footer-nav-links {
+		list-style: none;
+		li {
+			display: inline-block;
+			padding: 0 20px;
+			text-align: center;
+		}
+		a {
+			transition: all 0.3s ease 0s;
+			font-size: 1.5rem;
+		}
+		a:hover {
+			color: $softRed;
 		}
 	}
 }
