@@ -387,3 +387,33 @@ header {
 		}
 	}
 }
+.faq {
+	.faqTop {
+		text-align: center;
+		width: 35%;
+		margin: auto;
+		h2 {
+			color: $darkBlue;
+			padding-bottom: 10px;
+			padding-top: 20px;
+		}
+		p {
+			color: $grayBlue;
+		}
+	}
+	.faqBar {
+		p {
+			display: grid;
+			width: 40%;
+			margin: auto;
+		}
+		.btn {
+			align-content: center;
+			display: flex;
+			margin: 5px;
+			padding: 10px;
+			background-color: white;
+			color: $darkBlue;
+		}
+	}
+}
