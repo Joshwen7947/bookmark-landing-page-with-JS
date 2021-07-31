@@ -118,6 +118,8 @@ header {
 	}
 }
 .features {
+	padding-top: 50px;
+	margin-bottom: -50px;
 	// background-color: coral;
 	.features-head {
 		text-align: center;
@@ -245,6 +247,143 @@ header {
 			border-radius: 10px;
 			background-color: $softBlue;
 			color: white;
+		}
+	}
+}
+.hr {
+	border-top: 6px dotted $grayBlue;
+	background-color: #fff;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+}
+.addOn {
+	.extensions {
+		text-align: center;
+		width: 35%;
+		margin: auto;
+		h2 {
+			color: $darkBlue;
+			padding-bottom: 10px;
+			padding-top: 20px;
+		}
+		p {
+			color: $grayBlue;
+		}
+	}
+	.extensionCards {
+		text-align: center;
+		width: 65%;
+		margin: auto;
+		display: flex;
+		padding: 25px;
+		margin-bottom: 25px;
+
+		.chrome {
+			// background-color: blue;
+			height: 350px;
+			width: 250px;
+			border-radius: 15px;
+			box-shadow: 2px 2px 2px 2px $grayBlue;
+			img {
+				margin: 15px 0 25px 0;
+			}
+			h3 {
+				color: $darkBlue;
+			}
+			p {
+				color: $grayBlue;
+			}
+			hr {
+				border-top: 6px dotted $grayBlue;
+				background-color: #fff;
+				width: 100%;
+			}
+			button {
+				margin-top: 20px;
+				padding: 10px;
+				border: none;
+				border-radius: 10px;
+				background-color: $softBlue;
+				color: white;
+			}
+			button:hover {
+				cursor: pointer;
+				background-color: white;
+				border: 2px solid $softBlue;
+				color: $softBlue;
+			}
+		}
+		.firefox {
+			// background-color: red;
+			height: 350px;
+			width: 250px;
+			border-radius: 15px;
+			margin: 0 50px;
+			box-shadow: 2px 2px 2px 2px $grayBlue;
+			img {
+				margin: 15px 0 25px 0;
+			}
+			h3 {
+				color: $darkBlue;
+			}
+			p {
+				color: $grayBlue;
+			}
+			hr {
+				border-top: 6px dotted $grayBlue;
+				background-color: #fff;
+				width: 100%;
+			}
+			button {
+				margin-top: 20px;
+				padding: 10px;
+				border: none;
+				border-radius: 10px;
+				background-color: $softBlue;
+				color: white;
+			}
+			button:hover {
+				cursor: pointer;
+				background-color: white;
+				border: 2px solid $softBlue;
+				color: $softBlue;
+			}
+		}
+		.opera {
+			// background-color: green;
+			height: 350px;
+			width: 250px;
+			border-radius: 15px;
+			box-shadow: 2px 2px 2px 2px $grayBlue;
+			img {
+				margin: 15px 0 25px 0;
+			}
+			h3 {
+				color: $darkBlue;
+			}
+			p {
+				color: $grayBlue;
+			}
+			hr {
+				border-top: 6px dotted $grayBlue;
+				background-color: #fff;
+				width: 100%;
+			}
+			button {
+				margin-top: 20px;
+				padding: 10px;
+				border: none;
+				border-radius: 10px;
+				background-color: $softBlue;
+				color: white;
+			}
+			button:hover {
+				cursor: pointer;
+				background-color: white;
+				border: 2px solid $softBlue;
+				color: $softBlue;
+			}
 		}
 	}
 }

@@ -137,6 +137,11 @@ header button:hover {
   right: 10px;
 }
 
+.features {
+  padding-top: 50px;
+  margin-bottom: -50px;
+}
+
 .features .features-head {
   text-align: center;
   width: 31%;
@@ -283,5 +288,167 @@ header button:hover {
   border-radius: 10px;
   background-color: #5368df;
   color: white;
+}
+
+.hr {
+  border-top: 6px dotted #9194a1;
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.addOn .extensions {
+  text-align: center;
+  width: 35%;
+  margin: auto;
+}
+
+.addOn .extensions h2 {
+  color: #252b46;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.addOn .extensions p {
+  color: #9194a1;
+}
+
+.addOn .extensionCards {
+  text-align: center;
+  width: 65%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+.addOn .extensionCards .chrome {
+  height: 350px;
+  width: 250px;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 2px 2px 2px #9194a1;
+          box-shadow: 2px 2px 2px 2px #9194a1;
+}
+
+.addOn .extensionCards .chrome img {
+  margin: 15px 0 25px 0;
+}
+
+.addOn .extensionCards .chrome h3 {
+  color: #252b46;
+}
+
+.addOn .extensionCards .chrome p {
+  color: #9194a1;
+}
+
+.addOn .extensionCards .chrome hr {
+  border-top: 6px dotted #9194a1;
+  background-color: #fff;
+  width: 100%;
+}
+
+.addOn .extensionCards .chrome button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5368df;
+  color: white;
+}
+
+.addOn .extensionCards .chrome button:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #5368df;
+  color: #5368df;
+}
+
+.addOn .extensionCards .firefox {
+  height: 350px;
+  width: 250px;
+  border-radius: 15px;
+  margin: 0 50px;
+  -webkit-box-shadow: 2px 2px 2px 2px #9194a1;
+          box-shadow: 2px 2px 2px 2px #9194a1;
+}
+
+.addOn .extensionCards .firefox img {
+  margin: 15px 0 25px 0;
+}
+
+.addOn .extensionCards .firefox h3 {
+  color: #252b46;
+}
+
+.addOn .extensionCards .firefox p {
+  color: #9194a1;
+}
+
+.addOn .extensionCards .firefox hr {
+  border-top: 6px dotted #9194a1;
+  background-color: #fff;
+  width: 100%;
+}
+
+.addOn .extensionCards .firefox button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5368df;
+  color: white;
+}
+
+.addOn .extensionCards .firefox button:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #5368df;
+  color: #5368df;
+}
+
+.addOn .extensionCards .opera {
+  height: 350px;
+  width: 250px;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px 2px 2px 2px #9194a1;
+          box-shadow: 2px 2px 2px 2px #9194a1;
+}
+
+.addOn .extensionCards .opera img {
+  margin: 15px 0 25px 0;
+}
+
+.addOn .extensionCards .opera h3 {
+  color: #252b46;
+}
+
+.addOn .extensionCards .opera p {
+  color: #9194a1;
+}
+
+.addOn .extensionCards .opera hr {
+  border-top: 6px dotted #9194a1;
+  background-color: #fff;
+  width: 100%;
+}
+
+.addOn .extensionCards .opera button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5368df;
+  color: white;
+}
+
+.addOn .extensionCards .opera button:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #5368df;
+  color: #5368df;
 }
 /*# sourceMappingURL=styles.css.map */
