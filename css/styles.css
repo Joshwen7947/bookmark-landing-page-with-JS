@@ -75,12 +75,13 @@ header button:hover {
 
 .top {
   height: 40vh;
+  padding-bottom: 500px;
+  padding-top: 50px;
 }
 
 .top .leftSide {
   width: 45%;
   position: absolute;
-  bottom: 45%;
   padding-left: 50px;
 }
 
@@ -104,6 +105,13 @@ header button:hover {
   font-size: 1rem;
 }
 
+.top .leftSide #chromeButton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #5368df;
+  border: 2px solid #5368df;
+}
+
 .top .leftSide #firefoxButton {
   padding: 20px;
   border-radius: 10px;
@@ -111,6 +119,12 @@ header button:hover {
   background-color: #ebebeb;
   color: #252b46;
   font-size: 1rem;
+}
+
+.top .leftSide #firefoxButton:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 2px solid #9194a1;
 }
 
 .top .leftSide button:hover {
@@ -121,6 +135,153 @@ header button:hover {
   float: right;
   position: absolute;
   right: 10px;
+}
+
+.features .features-head {
+  text-align: center;
+  width: 31%;
+  margin: auto;
+}
+
+.features .features-head h1 {
+  color: #252b46;
+}
+
+.features .features-head p {
+  color: #9194a1;
+}
+
+.features .categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.features .categories h4 {
+  padding: 20px 50px;
+}
+
+.features .carousel-inner {
+  height: 600px;
+}
+
+.features .carousel-indicators {
+  position: absolute;
+  top: -20px;
+  height: 30px;
+}
+
+.features .carousel-indicators .indicator-color {
+  background-color: #fa5757;
+  height: 10px;
+  width: 200px;
+  border-radius: 50px;
+  margin: 0 40px;
+}
+
+.features .carousel-control-prev {
+  background-color: #9194a1;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 45%;
+}
+
+.features .carousel-control-next {
+  background-color: #9194a1;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 45%;
+}
+
+.slideOne .slideOneLeft {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.slideOne .slideOneRight {
+  width: 35%;
+  position: absolute;
+  right: 100px;
   bottom: 30%;
+}
+
+.slideOne .slideOneRight h2 {
+  color: #252b46;
+  padding-bottom: 10px;
+}
+
+.slideOne .slideOneRight p {
+  color: #9194a1;
+}
+
+.slideOne .slideOneRight button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5368df;
+  color: white;
+}
+
+.slideTwo .slideTwoLeft {
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+.slideTwo .slideTwoRight {
+  width: 30%;
+  position: absolute;
+  right: 100px;
+  bottom: 30%;
+}
+
+.slideTwo .slideTwoRight h2 {
+  color: #252b46;
+  padding-bottom: 10px;
+}
+
+.slideTwo .slideTwoRight p {
+  color: #9194a1;
+}
+
+.slideTwo .slideTwoRight button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5368df;
+  color: white;
+}
+
+.slideThree .slideThreeLeft {
+  padding-left: 60px;
+  padding-top: 50px;
+}
+
+.slideThree .slideThreeRight {
+  width: 30%;
+  position: absolute;
+  right: 100px;
+  bottom: 30%;
+}
+
+.slideThree .slideThreeRight h2 {
+  color: #252b46;
+  padding-bottom: 10px;
+}
+
+.slideThree .slideThreeRight p {
+  color: #9194a1;
+}
+
+.slideThree .slideThreeRight button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5368df;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

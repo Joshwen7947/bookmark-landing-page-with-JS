@@ -62,10 +62,12 @@ header {
 
 .top {
 	height: 40vh;
+	padding-bottom: 500px;
+	padding-top: 50px;
 	.leftSide {
 		width: 45%;
 		position: absolute;
-		bottom: 45%;
+		// bottom: 45%;
 		padding-left: 50px;
 		h1 {
 			font-size: 3rem;
@@ -85,6 +87,12 @@ header {
 			color: white;
 			font-size: 1rem;
 		}
+		#chromeButton:hover {
+			cursor: pointer;
+			background-color: white;
+			color: $softBlue;
+			border: 2px solid $softBlue;
+		}
 		#firefoxButton {
 			padding: 20px;
 			border-radius: 10px;
@@ -92,6 +100,11 @@ header {
 			background-color: rgb(235, 235, 235);
 			color: $darkBlue;
 			font-size: 1rem;
+		}
+		#firefoxButton:hover {
+			cursor: pointer;
+			background-color: white;
+			border: 2px solid $grayBlue;
 		}
 		button:hover {
 			cursor: pointer;
@@ -101,6 +114,137 @@ header {
 		float: right;
 		position: absolute;
 		right: 10px;
+		// bottom: 30%;
+	}
+}
+.features {
+	// background-color: coral;
+	.features-head {
+		text-align: center;
+		width: 31%;
+		margin: auto;
+		h1 {
+			color: $darkBlue;
+		}
+		p {
+			color: $grayBlue;
+		}
+	}
+	.categories {
+		display: flex;
+		justify-content: center;
+		h4 {
+			padding: 20px 50px;
+		}
+	}
+
+	.carousel-inner {
+		height: 600px;
+	}
+	.carousel-indicators {
+		// background-color: $grayBlue;
+		position: absolute;
+		top: -20px;
+		height: 30px;
+		.indicator-color {
+			background-color: $softRed;
+			height: 10px;
+			width: 200px;
+			border-radius: 50px;
+			margin: 0 40px;
+		}
+	}
+	.carousel-control-prev {
+		background-color: $grayBlue;
+		height: 50px;
+		width: 50px;
+		position: absolute;
+		top: 45%;
+	}
+	.carousel-control-next {
+		background-color: $grayBlue;
+		height: 50px;
+		width: 50px;
+		position: absolute;
+		top: 45%;
+	}
+}
+
+.slideOne {
+	.slideOneLeft {
+		padding-left: 50px;
+		padding-top: 50px;
+	}
+	.slideOneRight {
+		width: 35%;
+		position: absolute;
+		right: 100px;
 		bottom: 30%;
+		h2 {
+			color: $darkBlue;
+			padding-bottom: 10px;
+		}
+		p {
+			color: $grayBlue;
+		}
+		button {
+			padding: 15px 25px;
+			border: none;
+			border-radius: 10px;
+			background-color: $softBlue;
+			color: white;
+		}
+	}
+}
+.slideTwo {
+	.slideTwoLeft {
+		padding-left: 60px;
+		padding-top: 50px;
+	}
+	.slideTwoRight {
+		width: 30%;
+		position: absolute;
+		right: 100px;
+		bottom: 30%;
+		h2 {
+			color: $darkBlue;
+			padding-bottom: 10px;
+		}
+		p {
+			color: $grayBlue;
+		}
+		button {
+			padding: 15px 25px;
+			border: none;
+			border-radius: 10px;
+			background-color: $softBlue;
+			color: white;
+		}
+	}
+}
+.slideThree {
+	.slideThreeLeft {
+		padding-left: 60px;
+		padding-top: 50px;
+	}
+	.slideThreeRight {
+		width: 30%;
+		position: absolute;
+		right: 100px;
+		bottom: 30%;
+		h2 {
+			color: $darkBlue;
+			padding-bottom: 10px;
+		}
+		p {
+			color: $grayBlue;
+		}
+		button {
+			padding: 15px 25px;
+			border: none;
+			border-radius: 10px;
+			background-color: $softBlue;
+			color: white;
+		}
 	}
 }
